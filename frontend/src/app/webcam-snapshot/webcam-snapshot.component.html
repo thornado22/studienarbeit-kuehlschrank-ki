@@ -1,0 +1,51 @@
+<button class="uploader" type="button" (click)="onLabelClick()">
+  <div class="upload-instructions" *ngIf="!isCameraRunning && !captures.length">
+    <img [src]="icon" alt="" class="upload-icon">
+    <h3>{{ text }}</h3>
+  </div>
+
+  <div class="video-container" *ngIf="isCameraRunning || captures.length">
+    <video
+      [class.show]="isCameraRunning"
+      [class.hide]="!isCameraRunning"
+      #video
+      id="video"
+      autoplay
+      playsinline
+      muted>
+    </video>
+
+    <canvas
+      class="hidden-canvas"
+      #canvas
+      id="canvas">
+    </canvas>
+  </div>
+
+  <div class="thumb-grid" *ngIf="captures.length">
+    <img
+      *ngFor="let capture of captures"
+      [src]="capture"
+      class="snapshot-thumb"
+      alt="Webcam Snapshot">
+  </div>
+</button>
+
+<div class="snap-container" *ngIf="!error">
+  <button 
+    class="action-button action-button--icon"
+    mat-raised-button 
+    [class.show]="isCameraRunning" 
+    [class.hide]="!isCameraRunning" 
+    *ngIf="isCameraRunning" 
+    (click)="capture(); $event.stopPropagation()"
+    style="display: inline-flex; align-items: center; justify-content: center; gap: 0.55rem;">
+    <img src="assets/bug.svg" alt="" class="action-icon" />
+    <span class="action-desktop">Mach ein Foto!</span>
+  </button>
+</div>
+
+<div *ngIf="error" class="error-message">
+  <img src="assets/videocam_off.svg" alt="" class="error-image"/>
+  <p>{{ error }} Please reload the page and make sure to allow camera access!</p>
+</div>

@@ -1,0 +1,8 @@
+{
+  "initial_recipe": {
+    "template": "Gib mir ein Rezept zurück, das grundlegend auf diesen Zutaten aufgebaut ist: {fridge_contents}; das Rezept muss nicht alle Zutaten enthalten"
+  },
+  "followup_with_images": {
+    "template": "{question}\n\nZusätzlich wurden neue Bilder hochgeladen. Darauf wurden diese Zutaten erkannt: {additional_contents}. Bitte berücksichtige diese zusätzlichen Zutaten in deiner Antwort."
+  }
+}

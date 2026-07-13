@@ -1,0 +1,48 @@
+{
+    "notes": "",
+    "settings": {
+        "epochs": 100,
+        "test_size": 0.3,
+        "learning_rate": 0.0003,
+        "patience": 7,
+        "min_data_samples_per_label": 40,
+        "batch_size": 128,
+        "model_path": "computerVision/models/test_butter.pth",
+        "model": "efficientnet_b0"
+    },
+    "results": {
+        "val_f1": 0.6990291262135923,
+        "val_class_f1": [],
+        "train_loss": 0.29555824398994446,
+        "val_loss": 0.6604280173778534,
+        "stop_epcoh": 8
+    },
+    "meta": {
+        "dataset_size": 396,
+        "classes": [
+            "butter_magarine"
+        ]
+    },
+    "feature_engineering": {
+        "single": {
+            "RandomBrightnessContrast": {
+                "p": 0.3
+            },
+            "HueSaturationValue": {
+                "p": 0.2
+            },
+            "GaussianBlur": {
+                "p": 0.1
+            },
+            "HorizontalFlip": {
+                "p": 0.5
+            },
+            "ShiftScaleRotate": {
+                "p": 0.3,
+                "shift_limit": 0.05,
+                "scale_limit": 0.1,
+                "rotate_limit": 10
+            }
+        }
+    }
+}

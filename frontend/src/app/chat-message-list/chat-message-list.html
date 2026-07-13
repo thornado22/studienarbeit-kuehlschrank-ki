@@ -1,0 +1,25 @@
+<div class="message-list">
+	<div class="message-row" *ngFor="let msg of messages" [class.user]="msg.role === 'user'" [class.assistant]="msg.role === 'assistant'">
+		<div class="bubble">
+			<div class="meta">{{ msg.role === 'user' ? 'Du' : 'Assistant' }}</div>
+			<div class="bubble-images" *ngIf="msg.images && msg.images.length">
+				<img *ngFor="let img of msg.images" [src]="img" class="bubble-img" alt="Bild">
+			</div>
+			
+			<!-- ERKANNTES ESSEN -->
+			<div class="food" *ngIf="msg.role === 'assistant' && msg.food?.length">
+			<strong> Erkannte Zutaten:</strong>
+			<ul>
+				<li *ngFor="let item of msg.food">{{ item }}</li>
+			</ul>
+			</div>
+
+			<!-- LLM TEXT -->
+			<div class="text" *ngIf="msg.text"
+				[innerHTML]="parseMarkdown(msg.text)">
+			</div>
+
+			<em>{{ msg.createdAt | date:'shortTime' }}</em>
+		</div>
+	</div>
+</div>

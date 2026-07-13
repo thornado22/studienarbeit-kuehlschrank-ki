@@ -1,0 +1,51 @@
+.info-page,
+:host {
+  box-sizing: border-box;
+}
+
+.info-page h3 {
+  font-size: clamp(40px, 4vw, 24px);
+}
+
+.info-page {
+  color: white;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.info-page::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+.info-page::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.info-page li{
+      font-size: 22px
+    }
+
+@media (max-width: 480px) {
+  .info-page {
+    padding: 0.9rem;
+    width: calc(100% - 1rem);
+  }
+
+  .box {
+    padding: 1.1rem;
+    border-radius: 20px;
+  }
+
+  .info-page p{
+    font-size: 20px;
+  }
+   
+  .info-page li{
+      font-size: 18px
+    }
+
+  .info-page ul {
+    padding-left: 1rem;
+  }
+}
+

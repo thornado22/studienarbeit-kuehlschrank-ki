@@ -1,0 +1,52 @@
+{
+  "threshold": 0.5,
+  "num_images": 65,
+  "classes": [
+    "faecher",
+    "tuer",
+    "gesamter_kuehlschrank",
+    "schublade"
+  ],
+  "per_class": {
+    "faecher": {
+      "precision": 0.7568,
+      "recall": 0.875,
+      "f1": 0.8116,
+      "support": 32,
+      "tp": 28,
+      "fp": 9,
+      "fn": 4,
+      "tn": 24
+    },
+    "tuer": {
+      "precision": 0.6471,
+      "recall": 0.6471,
+      "f1": 0.6471,
+      "support": 17,
+      "tp": 11,
+      "fp": 6,
+      "fn": 6,
+      "tn": 42
+    },
+    "gesamter_kuehlschrank": {
+      "precision": 0.1,
+      "recall": 0.5,
+      "f1": 0.1667,
+      "support": 2,
+      "tp": 1,
+      "fp": 9,
+      "fn": 1,
+      "tn": 54
+    },
+    "schublade": {
+      "precision": 0.4545,
+      "recall": 1.0,
+      "f1": 0.625,
+      "support": 10,
+      "tp": 10,
+      "fp": 12,
+      "fn": 0,
+      "tn": 43
+    }
+  }
+}

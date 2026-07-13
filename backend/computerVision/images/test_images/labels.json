@@ -1,0 +1,743 @@
+[
+    {
+        "image": "12qmI_xp1F1QJqTQik58XzM6e2AYx9L-K.jpg",
+        "annotations": [
+            "tuer",
+            "zitronensaft"
+        ]
+    },
+    {
+        "image": "13HDva84_KVN20e1_lDHmU5slRU9VEZe7.jpg",
+        "annotations": [
+            "tuer",
+            "milch",
+            "ketchup",
+            "pesto",
+            "sojasose"
+        ]
+    },
+    {
+        "image": "13WrLeEk6I1v31tKzzN91lxYFQ-akRDiw.jpg",
+        "annotations": [
+            "faecher",
+            "sahne",
+            "ei",
+            "alkohol",
+            "essiggurke",
+            "tofu",
+            "paprika",
+            "gurke"
+        ]
+    },
+    {
+        "image": "15YmYAS3JEXRV9roC7V2Z64IQumectJTW.jpg",
+        "annotations": [
+            "faecher",
+            "hackfleisch",
+            "joghurt",
+            "feta",
+            "frischkaese",
+            "kaese",
+            "gnocchi",
+            "butter_magarine"
+        ]
+    },
+    {
+        "image": "17F4YemFBKZg5_BggeSmO8ebePzLjIBxu.jpg",
+        "annotations": [
+            "faecher",
+            "ei",
+            "quark",
+            "joghurt",
+            "frischkaese",
+            "butter_magarine"
+        ]
+    },
+    {
+        "image": "17JmGWglev2TMH-4rThLDd3fNbUkE1xT9.jpg",
+        "annotations": [
+            "tuer",
+            "butter_magarine",
+            "tomatenmark",
+            "sojasose",
+            "ketchup",
+            "alkohol",
+            "milch",
+            "pesto",
+            "aufbackbaguette",
+            "fruehlingszwiebel"
+        ]
+    },
+    {
+        "image": "17ovDBRpQefp4G7ccfEWB_jHHRxhLPXkS.jpg",
+        "annotations": [
+            "unbrauchbar"
+        ]
+    },
+    {
+        "image": "1862zvAUHftTj4B_UOGp8Z0MPSbs4wu_s.jpg",
+        "annotations": [
+            "faecher",
+            "essiggurke",
+            "senf",
+            "butter_magarine",
+            "ei",
+            "sahne",
+            "frischkaese",
+            "mozzarella",
+            "reibekaese"
+        ]
+    },
+    {
+        "image": "186I7AcdyoFFB2Q2DN8FXou5vWYQaGmUr.jpg",
+        "annotations": [
+            "faecher",
+            "milch",
+            "ei",
+            "sahne",
+            "essiggurke",
+            "butter_magarine",
+            "parmesan",
+            "beere",
+            "ketchup",
+            "kaese",
+            "reibekaese"
+        ]
+    },
+    {
+        "image": "19_UkFbxBVSyGPHaCXbyJ4B-5GS7nlOxx.jpg",
+        "annotations": [
+            "gesamter_kuehlschrank",
+            "wein",
+            "alkohol",
+            "butter_magarine",
+            "joghurt",
+            "milch"
+        ]
+    },
+    {
+        "image": "1Qaufa8UqgxxzGrHSzIvqbryf3__lpOkE.jpg",
+        "annotations": [
+            "unbrauchbar"
+        ]
+    },
+    {
+        "image": "1R0pbsGqeRKYrA7UzJWb4QvkC2fh5lQU4.jpg",
+        "annotations": [
+            "schublade",
+            "butter_magarine",
+            "sahne",
+            "kaese",
+            "salat",
+            "karotte",
+            "zwiebel",
+            "apfel"
+        ]
+    },
+    {
+        "image": "1Rv9ooo0ULxVjnzqsBpPlhFANcnR6eRT4.jpg",
+        "annotations": [
+            "tuer",
+            "milch",
+            "pesto",
+            "saft",
+            "ketchup",
+            "sojasose",
+            "senf",
+            "zitronensaft",
+            "tomatenmark"
+        ]
+    },
+    {
+        "image": "1S4lBrJFR03tK3S2nkvFTlo3CCGeJ9baZ.jpg",
+        "annotations": [
+            "faecher",
+            "karotte",
+            "paprika",
+            "gurke",
+            "beere"
+        ]
+    },
+    {
+        "image": "1Uyw3JmUz9xwCoQ_9gHGYBkATa9odHt2Y.jpg",
+        "annotations": [
+            "alkohol",
+            "sahne",
+            "joghurt",
+            "marmelade",
+            "ketchup",
+            "pesto",
+            "ei",
+            "frischkaese",
+            "curry",
+            "essiggurke",
+            "faecher"
+        ]
+    },
+    {
+        "image": "1VQ3bL3SibldtYiJ3RRLBYvDWrtNNk7-Y.jpg",
+        "annotations": [
+            "schublade",
+            "fruehlingszwiebel",
+            "gurke"
+        ]
+    },
+    {
+        "image": "1VesWw6zV4uZ86hWfpUS4CuVExIe9EKNu.jpg",
+        "annotations": [
+            "faecher",
+            "pesto",
+            "joghurt",
+            "reibekaese",
+            "ei",
+            "wurst"
+        ]
+    },
+    {
+        "image": "1WJ6gu3v4o8ADhfPtQ5_r4dynunMjEUnT.jpg",
+        "annotations": [
+            "tuer",
+            "butter_magarine",
+            "sahne",
+            "wurst",
+            "ketchup",
+            "mayo",
+            "marmelade",
+            "tomatenmark",
+            "senf",
+            "reibekaese"
+        ]
+    },
+    {
+        "image": "1Wr0VJkVEI1G4YvwbNwEeznjEolELVPkJ.jpg",
+        "annotations": [
+            "faecher",
+            "alkohol",
+            "tofu",
+            "paprika",
+            "beere",
+            "gurke",
+            "joghurt"
+        ]
+    },
+    {
+        "image": "1Z12I3M0-lkOHujiq0_SzdFk6xjsJyQ7Q.jpg",
+        "annotations": [
+            "tuer",
+            "tomatenmark",
+            "milch",
+            "essiggurke",
+            "pesto"
+        ]
+    },
+    {
+        "image": "1rCm7qkjjhu7dOFGNADCYe-EBTi4wtzHY.jpg",
+        "annotations": [
+            "schublade",
+            "mayo",
+            "salat",
+            "fruehlingszwiebel"
+        ]
+    },
+    {
+        "image": "1sFcLMbx3fXoSRrOlEG1nU4WCjSrignWs.jpg",
+        "annotations": [
+            "faecher",
+            "butter_magarine",
+            "joghurt",
+            "beere",
+            "quark",
+            "tomate",
+            "scheibenkaese",
+            "frischkaese",
+            "chickennuggets"
+        ]
+    },
+    {
+        "image": "1tCECW8DE-oRPuiFJg59MkLtHJyID-KOE.jpg",
+        "annotations": [
+            "faecher",
+            "joghurt",
+            "beere",
+            "creme_fraiche",
+            "ei",
+            "tomate",
+            "butter_magarine",
+            "paprika",
+            "gurke",
+            "salat",
+            "frischkaese",
+            "speck",
+            "scheibenkaese"
+        ]
+    },
+    {
+        "image": "1uXPNRqlVtyKCJ2k9iS2dh2pk_VfI8v_N.jpg",
+        "annotations": [
+            "faecher",
+            "joghurt",
+            "wein",
+            "tofu",
+            "scheibenkaese",
+            "fruehlingszwiebel"
+        ]
+    },
+    {
+        "image": "1vFqIIDZOaww25MevsYhn33_C1wUacXXV.jpg",
+        "annotations": [
+            "faecher",
+            "joghurt",
+            "zitronensaft",
+            "marmelade",
+            "butter_magarine",
+            "scheibenkaese"
+        ]
+    },
+    {
+        "image": "1vK_WaENpXMP-QwuNLjJY6kFaKciSD6dd.jpg",
+        "annotations": [
+            "faecher",
+            "ei",
+            "hackfleisch",
+            "beere",
+            "quark",
+            "butter_magarine",
+            "tomate",
+            "mozzarella",
+            "feta",
+            "gnocchi"
+        ]
+    },
+    {
+        "image": "1vqVOlHs8lk-luYHkSgFkvtIPPNDPgz7_.jpg",
+        "annotations": [
+            "faecher",
+            "creme_fraiche",
+            "pesto",
+            "quark",
+            "essiggurke",
+            "marmelade",
+            "butter_magarine",
+            "tomate",
+            "ei",
+            "maultaschen",
+            "fruehlingszwiebel",
+            "gurke",
+            "zwiebel"
+        ]
+    },
+    {
+        "image": "1wYu4bfmoWQWR_yfSNqBy9wEJGY6ljhZC.jpg",
+        "annotations": [
+            "faecher",
+            "ei",
+            "speck",
+            "kaese",
+            "reibekaese"
+        ]
+    },
+    {
+        "image": "1z8DLPT6h2ULazm3_qPgbmVkMqt2Upw0N.jpg",
+        "annotations": [
+            "tuer",
+            "feta",
+            "sahne",
+            "alkohol"
+        ]
+    },
+    {
+        "image": "1-RD4kwMY4qOinxLLpJmzAN3EO5UiCf-U.jpg",
+        "annotations": [
+            "joghurt",
+            "faecher",
+            "quark",
+            "ketchup",
+            "tomate",
+            "butter_magarine",
+            "scheibenkaese",
+            "beere",
+            "chickennuggets",
+            "frischkaese",
+            "spaezle",
+            "ei",
+            "paprika",
+            "zucchini"
+        ]
+    },
+    {
+        "image": "1-VUwdK2Iwlh6T_Fj-KlEZz0_CXowBcHg.jpg",
+        "annotations": [
+            "pesto",
+            "wuerstchen",
+            "aufbackbaguette",
+            "joghurt",
+            "butter_magarine",
+            "sahne",
+            "faecher"
+        ]
+    },
+    {
+        "image": "10gXfv4bct5e9g7rX-HY0EYH-IPluEkci.jpg",
+        "annotations": [
+            "aufbackbaguette",
+            "wein",
+            "joghurt",
+            "scheibenkaese",
+            "feta",
+            "chickennuggets",
+            "fruehlingszwiebel",
+            "faecher"
+        ]
+    },
+    {
+        "image": "11DlquXl9lcSb1FAf4_8Zb4SHuzbyz2jw.jpg",
+        "annotations": [
+            "tuer",
+            "ei",
+            "butter_magarine",
+            "milch",
+            "sahne",
+            "alkohol",
+            "zitronensaft",
+            "saft"
+        ]
+    },
+    {
+        "image": "121R8ji_Zr3JVzdimCN8pAUiHS8TcUk4Z.jpg",
+        "annotations": [
+            "tuer",
+            "ei",
+            "ketchup",
+            "mayo",
+            "tomatenmark",
+            "saft",
+            "milch",
+            "butter_magarine"
+        ]
+    },
+    {
+        "image": "12U1UxLjbD1_CfxP9OEkUwJSOQet8bSOA.jpg",
+        "annotations": [
+            "faecher",
+            "joghurt",
+            "quark",
+            "ei",
+            "creme_fraiche",
+            "beere",
+            "frischkaese",
+            "butter_magarine",
+            "mozzarella",
+            "feta",
+            "tomate",
+            "gnocchi"
+        ]
+    },
+    {
+        "image": "1BRBN6PSK6SymahvvASlUl6VduEsjaoa2.jpg",
+        "annotations": [
+            "faecher",
+            "ei",
+            "butter_magarine",
+            "quark",
+            "mozzarella",
+            "joghurt",
+            "creme_fraiche",
+            "tomate",
+            "frischkaese",
+            "beere",
+            "tofu",
+            "gnocchi"
+        ]
+    },
+    {
+        "image": "1BeyZmwOkxVxj6-3TR3VV4_YTNphR0Piw.jpg",
+        "annotations": [
+            "tuer",
+            "pesto",
+            "alkohol",
+            "milch",
+            "parmesan",
+            "sojasose",
+            "tomatenmark",
+            "aufbackbaguette"
+        ]
+    },
+    {
+        "image": "1BnaF_L6Nq33x-hrZVNVASyk7Y7XdcOuf.jpg",
+        "annotations": [
+            "reisessig",
+            "ketchup",
+            "mayo"
+        ]
+    },
+    {
+        "image": "1CFjkZM7J8iX1Zlcw-oJp45g5AsKqgJMn.jpg",
+        "annotations": [
+            "schublade",
+            "tofu"
+        ]
+    },
+    {
+        "image": "1CroPd_PtlYKY2Y9OE27tYfKY8JHdCE_m.jpg",
+        "annotations": [
+            "faecher",
+            "tuer",
+            "alkohol",
+            "milch",
+            "joghurt"
+        ]
+    },
+    {
+        "image": "1EwmYv_zyVA4rwQQc7_JsIAKqMHPTMuy7.jpg",
+        "annotations": [
+            "faecher",
+            "alkohol"
+        ]
+    },
+    {
+        "image": "1EyX6wsNsVWQdYDtQYDDmkqK65rbrlXck.jpg",
+        "annotations": [
+            "tuer",
+            "butter_magarine",
+            "sahne",
+            "curry",
+            "alkohol",
+            "sojasose",
+            "ketchup",
+            "tomatenmark"
+        ]
+    },
+    {
+        "image": "1H2avOePgiU1fFQtfUYlUR3kQnJOlapEF.jpg",
+        "annotations": [
+            "tuer",
+            "saft",
+            "milch",
+            "tomatenmark"
+        ]
+    },
+    {
+        "image": "1HHakSO84PwJyFCIxltBJ6852z-pMjuBT.jpg",
+        "annotations": [
+            "schublade",
+            "karotte",
+            "paprika",
+            "fruehlingszwiebel"
+        ]
+    },
+    {
+        "image": "1HfRxxvO9tLGsYxVJj2LyyUY7s51BvqBS.jpg",
+        "annotations": [
+            "schublade",
+            "butter_magarine",
+            "rotebete"
+        ]
+    },
+    {
+        "image": "1HjyOBd5ZXm_f7x6dL6b25RhfPqTa5__H.jpg",
+        "annotations": [
+            "faecher",
+            "creme_fraiche",
+            "pesto"
+        ]
+    },
+    {
+        "image": "1I6rDxSDuZ8QNlVQteDG1SShqAFynd-oo.jpg",
+        "annotations": [
+            "faecher",
+            "pesto",
+            "reibekaese"
+        ]
+    },
+    {
+        "image": "1LcU2ShKQP2tdlDVQ8myA6KR-TjbWaQID.jpg",
+        "annotations": [
+            "tuer",
+            "avocado",
+            "milch",
+            "tomatenmark"
+        ]
+    },
+    {
+        "image": "1MS1qfYIrgKxWXWITpDoY2MBPmnYt2twx.jpg",
+        "annotations": [
+            "faecher",
+            "butter_magarine",
+            "feta",
+            "scheibenkaese"
+        ]
+    },
+    {
+        "image": "1Nx4CxJSEGm_T_McVqBfs9ZLblCuzVyKX.jpg",
+        "annotations": [
+            "tuer",
+            "milch",
+            "tomatenmark"
+        ]
+    },
+    {
+        "image": "1PdRnliuMzxYDgrGT_7T3V0pl2CzbzRp0.jpg",
+        "annotations": [
+            "faecher",
+            "joghurt",
+            "beere",
+            "ei",
+            "butter_magarine",
+            "paprika",
+            "salat",
+            "wurst",
+            "tomate",
+            "frischkaese"
+        ]
+    },
+    {
+        "image": "1axtUNaB_sw9Sg8IDPznOskdSea5-5e1X.jpg",
+        "annotations": [
+            "schublade",
+            "butter_magarine",
+            "reibekaese",
+            "frischkaese"
+        ]
+    },
+    {
+        "image": "1buqwqP9zo47SSCR4jgRw-LH5r5gqRUbt.jpg",
+        "annotations": [
+            "ei",
+            "butter_magarine",
+            "tomatenmark"
+        ]
+    },
+    {
+        "image": "1dG_F-DhzqspY0eNekL_p5123IS65oIgu.jpg",
+        "annotations": [
+            "faecher",
+            "joghurt",
+            "marmelade",
+            "wurst"
+        ]
+    },
+    {
+        "image": "1e_IfXf_yW74pINTWEd6LpkImyM5I-Lhr.jpg",
+        "annotations": [
+            "schublade",
+            "fruehlingszwiebel",
+            "aubergine",
+            "zucchini",
+            "wurst"
+        ]
+    },
+    {
+        "image": "1f9nW_YWxsp7ixqcF2jpHwMzvnFNMvDHw.jpg",
+        "annotations": [
+            "maultaschen",
+            "wurst"
+        ]
+    },
+    {
+        "image": "1fpeIxy_EzIXpC-b7pR-grMYBusFvT5Mp.jpg",
+        "annotations": [
+            "faecher",
+            "milch",
+            "joghurt",
+            "kaese",
+            "reibekaese"
+        ]
+    },
+    {
+        "image": "1fzMvRrFT188VAGdi5OF5tyBhqnO0OiON.jpg",
+        "annotations": [
+            "schublade",
+            "paprika",
+            "fruehlingszwiebel",
+            "karotte"
+        ]
+    },
+    {
+        "image": "1h7SmDfK1Rduj5_SU1W5UA4he7GMQ_l0r.jpg",
+        "annotations": [
+            "faecher",
+            "quark",
+            "joghurt",
+            "creme_fraiche",
+            "tofu",
+            "avocado",
+            "butter_magarine",
+            "feta"
+        ]
+    },
+    {
+        "image": "1hDXdQ9DDDLnHSm9T_GAD-ws8-4ppnrqk.jpg",
+        "annotations": [
+            "faecher",
+            "feta",
+            "milch",
+            "alkohol",
+            "fruehlingszwiebel",
+            "lauch",
+            "mayo"
+        ]
+    },
+    {
+        "image": "1iBDpI8tsFC732pG1ThBrg_20j4TEBlQE.jpg",
+        "annotations": [
+            "schublade",
+            "paprika",
+            "fruehlingszwiebel",
+            "karotte"
+        ]
+    },
+    {
+        "image": "1kGczR1q9sdLGlY_ddVvemdIV7lzblvi5.jpg",
+        "annotations": [
+            "tuer",
+            "frischkaese",
+            "quark",
+            "tomatenmark",
+            "mozzarella",
+            "saft",
+            "milch",
+            "kaese"
+        ]
+    },
+    {
+        "image": "1laXqXre0rFOROAXZ4bVjigPTYgQRXfpi.jpg",
+        "annotations": [
+            "faecher",
+            "quark",
+            "mozzarella",
+            "tomate",
+            "frischkaese",
+            "spaezle",
+            "oliven",
+            "banane",
+            "avocado"
+        ]
+    },
+    {
+        "image": "1nXW8yhxUKA6hfS1VYO8AQ78LVx9x41NV.jpg",
+        "annotations": [
+            "tuer",
+            "milch",
+            "mayo",
+            "ketchup",
+            "senf",
+            "butter_magarine"
+        ]
+    },
+    {
+        "image": "1nnK6FyWSnTzH2WJRcvLL_a4-ovJoWh2b.jpg",
+        "annotations": [
+            "gesamter_kuehlschrank",
+            "tomatenmark",
+            "pesto",
+            "milch",
+            "ketchup",
+            "sojasose",
+            "joghurt",
+            "scheibenkaese",
+            "fruehlingszwiebel",
+            "aufbackbaguette",
+            "feta"
+        ]
+    }
+]

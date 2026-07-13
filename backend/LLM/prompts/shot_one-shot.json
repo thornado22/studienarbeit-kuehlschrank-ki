@@ -1,0 +1,8 @@
+{
+  "initial_recipe": {
+    "template": "Erstelle ein praktisch umsetzbares deutschsprachiges Rezept auf Grundlage folgender erkannter Kühlschrankinhalte: {fridge_contents}. Die erkannten Lebensmittel sollen die Grundlage des Gerichts bilden; es müssen jedoch nicht alle erkannten Zutaten verwendet werden. Es müssen nicht alle erkannten Zutaten verwendet werden. Ergänzt werden dürfen ausschließlich typische Vorratszutaten, beispielsweise Salz, Pfeffer, Gewürze, Öl, Essig, Mehl, Zucker, Reis, Nudeln oder Konserven. Nicht erkannte frische Hauptzutaten dürfen nicht als vorhanden dargestellt werden. Verwende exakt folgende Abschnitte: GERICHT, PORTIONEN, ZUTATEN, ZUBEREITUNG, ZUBEREITUNGSDAUER und ZUSÄTZLICH BENÖTIGTE VORRATSZUTATEN. Gib die Zubereitung als nummerierte Schritte aus.\n\nBeispiel:\nErkannte Kühlschrankinhalte: Eier, Tomaten, Käse\nGERICHT: Tomaten-Käse-Omelett\nPORTIONEN: 2\nZUTATEN:\n- 3 Eier\n- 2 Tomaten\n- 80 g Käse\n- Salz, Pfeffer und etwas Öl als Vorratszutaten\nZUBEREITUNG:\n1. Tomaten schneiden und Käse reiben.\n2. Eier verquirlen und würzen.\n3. Tomaten kurz anbraten, Eier hinzugeben und mit Käse bestreuen.\n4. Das Omelett bei mittlerer Hitze stocken lassen.\nZUBEREITUNGSDAUER: ungefähr 15 Minuten\nZUSÄTZLICH BENÖTIGTE VORRATSZUTATEN: Salz, Pfeffer, Öl\n\nErstelle nun das Rezept für die tatsächlich erkannten Kühlschrankinhalte."
+  },
+  "followup_with_images": {
+    "template": "{question}\n\nZusätzlich wurden auf neu hochgeladenen Bildern folgende Zutaten erkannt: {additional_contents}."
+  }
+}

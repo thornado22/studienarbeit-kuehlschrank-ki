@@ -1,0 +1,349 @@
+{
+  "threshold": 0.5,
+  "num_images": 65,
+  "classes": [
+    "alkohol",
+    "butter_magarine",
+    "creme_fraiche",
+    "ei",
+    "essiggurke",
+    "feta",
+    "frischkaese",
+    "fruehlingszwiebel",
+    "gurke",
+    "joghurt",
+    "kaese",
+    "karotte",
+    "ketchup",
+    "marmelade",
+    "mayo",
+    "milch",
+    "paprika",
+    "parmesan",
+    "pesto",
+    "quark",
+    "reibekaese",
+    "saft",
+    "sahne",
+    "salat",
+    "scheibenkaese",
+    "senf",
+    "sojasose",
+    "tofu",
+    "tomate",
+    "tomatenmark",
+    "wurst"
+  ],
+  "per_class": {
+    "alkohol": {
+      "precision": 0.1739,
+      "recall": 0.3333,
+      "f1": 0.2286,
+      "support": 12,
+      "tp": 4,
+      "fp": 19,
+      "fn": 8,
+      "tn": 34
+    },
+    "butter_magarine": {
+      "precision": 0.5111,
+      "recall": 0.8519,
+      "f1": 0.6389,
+      "support": 27,
+      "tp": 23,
+      "fp": 22,
+      "fn": 4,
+      "tn": 16
+    },
+    "creme_fraiche": {
+      "precision": 0.2143,
+      "recall": 1.0,
+      "f1": 0.3529,
+      "support": 6,
+      "tp": 6,
+      "fp": 22,
+      "fn": 0,
+      "tn": 37
+    },
+    "ei": {
+      "precision": 0.3514,
+      "recall": 0.7647,
+      "f1": 0.4815,
+      "support": 17,
+      "tp": 13,
+      "fp": 24,
+      "fn": 4,
+      "tn": 24
+    },
+    "essiggurke": {
+      "precision": 0.1,
+      "recall": 0.1667,
+      "f1": 0.125,
+      "support": 6,
+      "tp": 1,
+      "fp": 9,
+      "fn": 5,
+      "tn": 50
+    },
+    "feta": {
+      "precision": 0.1667,
+      "recall": 0.5556,
+      "f1": 0.2564,
+      "support": 9,
+      "tp": 5,
+      "fp": 25,
+      "fn": 4,
+      "tn": 31
+    },
+    "frischkaese": {
+      "precision": 0.2727,
+      "recall": 0.6923,
+      "f1": 0.3913,
+      "support": 13,
+      "tp": 9,
+      "fp": 24,
+      "fn": 4,
+      "tn": 28
+    },
+    "fruehlingszwiebel": {
+      "precision": 0.2273,
+      "recall": 0.8333,
+      "f1": 0.3571,
+      "support": 12,
+      "tp": 10,
+      "fp": 34,
+      "fn": 2,
+      "tn": 19
+    },
+    "gurke": {
+      "precision": 0.0571,
+      "recall": 0.3333,
+      "f1": 0.0976,
+      "support": 6,
+      "tp": 2,
+      "fp": 33,
+      "fn": 4,
+      "tn": 26
+    },
+    "joghurt": {
+      "precision": 0.5769,
+      "recall": 0.7143,
+      "f1": 0.6383,
+      "support": 21,
+      "tp": 15,
+      "fp": 11,
+      "fn": 6,
+      "tn": 33
+    },
+    "kaese": {
+      "precision": 0.0976,
+      "recall": 0.6667,
+      "f1": 0.1702,
+      "support": 6,
+      "tp": 4,
+      "fp": 37,
+      "fn": 2,
+      "tn": 22
+    },
+    "karotte": {
+      "precision": 0.1923,
+      "recall": 1.0,
+      "f1": 0.3226,
+      "support": 5,
+      "tp": 5,
+      "fp": 21,
+      "fn": 0,
+      "tn": 39
+    },
+    "ketchup": {
+      "precision": 0.4167,
+      "recall": 0.8333,
+      "f1": 0.5556,
+      "support": 12,
+      "tp": 10,
+      "fp": 14,
+      "fn": 2,
+      "tn": 39
+    },
+    "marmelade": {
+      "precision": 0.0476,
+      "recall": 0.2,
+      "f1": 0.0769,
+      "support": 5,
+      "tp": 1,
+      "fp": 20,
+      "fn": 4,
+      "tn": 40
+    },
+    "mayo": {
+      "precision": 0.2273,
+      "recall": 0.8333,
+      "f1": 0.3571,
+      "support": 6,
+      "tp": 5,
+      "fp": 17,
+      "fn": 1,
+      "tn": 42
+    },
+    "milch": {
+      "precision": 0.4333,
+      "recall": 0.7222,
+      "f1": 0.5417,
+      "support": 18,
+      "tp": 13,
+      "fp": 17,
+      "fn": 5,
+      "tn": 30
+    },
+    "paprika": {
+      "precision": 0.2162,
+      "recall": 0.8889,
+      "f1": 0.3478,
+      "support": 9,
+      "tp": 8,
+      "fp": 29,
+      "fn": 1,
+      "tn": 27
+    },
+    "parmesan": {
+      "precision": 0.0417,
+      "recall": 0.5,
+      "f1": 0.0769,
+      "support": 2,
+      "tp": 1,
+      "fp": 23,
+      "fn": 1,
+      "tn": 40
+    },
+    "pesto": {
+      "precision": 0.2,
+      "recall": 0.5,
+      "f1": 0.2857,
+      "support": 12,
+      "tp": 6,
+      "fp": 24,
+      "fn": 6,
+      "tn": 29
+    },
+    "quark": {
+      "precision": 0.3333,
+      "recall": 0.3,
+      "f1": 0.3158,
+      "support": 10,
+      "tp": 3,
+      "fp": 6,
+      "fn": 7,
+      "tn": 49
+    },
+    "reibekaese": {
+      "precision": 0.125,
+      "recall": 0.625,
+      "f1": 0.2083,
+      "support": 8,
+      "tp": 5,
+      "fp": 35,
+      "fn": 3,
+      "tn": 22
+    },
+    "saft": {
+      "precision": 0.1667,
+      "recall": 0.6,
+      "f1": 0.2609,
+      "support": 5,
+      "tp": 3,
+      "fp": 15,
+      "fn": 2,
+      "tn": 45
+    },
+    "sahne": {
+      "precision": 0.1463,
+      "recall": 0.6,
+      "f1": 0.2353,
+      "support": 10,
+      "tp": 6,
+      "fp": 35,
+      "fn": 4,
+      "tn": 20
+    },
+    "salat": {
+      "precision": 0.0513,
+      "recall": 0.5,
+      "f1": 0.093,
+      "support": 4,
+      "tp": 2,
+      "fp": 37,
+      "fn": 2,
+      "tn": 24
+    },
+    "scheibenkaese": {
+      "precision": 0.1429,
+      "recall": 0.75,
+      "f1": 0.24,
+      "support": 8,
+      "tp": 6,
+      "fp": 36,
+      "fn": 2,
+      "tn": 21
+    },
+    "senf": {
+      "precision": 0.2,
+      "recall": 1.0,
+      "f1": 0.3333,
+      "support": 4,
+      "tp": 4,
+      "fp": 16,
+      "fn": 0,
+      "tn": 45
+    },
+    "sojasose": {
+      "precision": 0.125,
+      "recall": 0.3333,
+      "f1": 0.1818,
+      "support": 6,
+      "tp": 2,
+      "fp": 14,
+      "fn": 4,
+      "tn": 45
+    },
+    "tofu": {
+      "precision": 0.1429,
+      "recall": 0.6667,
+      "f1": 0.2353,
+      "support": 6,
+      "tp": 4,
+      "fp": 24,
+      "fn": 2,
+      "tn": 35
+    },
+    "tomate": {
+      "precision": 0.1515,
+      "recall": 0.5556,
+      "f1": 0.2381,
+      "support": 9,
+      "tp": 5,
+      "fp": 28,
+      "fn": 4,
+      "tn": 28
+    },
+    "tomatenmark": {
+      "precision": 0.3438,
+      "recall": 0.8462,
+      "f1": 0.4889,
+      "support": 13,
+      "tp": 11,
+      "fp": 21,
+      "fn": 2,
+      "tn": 31
+    },
+    "wurst": {
+      "precision": 0.1111,
+      "recall": 0.8333,
+      "f1": 0.1961,
+      "support": 6,
+      "tp": 5,
+      "fp": 40,
+      "fn": 1,
+      "tn": 19
+    }
+  }
+}

@@ -1,0 +1,7 @@
+albumentations
+fastapi
+groq
+pillow
+uvicorn
+opencv-python-headless
+torchvision

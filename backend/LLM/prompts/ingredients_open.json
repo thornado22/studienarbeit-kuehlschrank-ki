@@ -1,0 +1,8 @@
+{
+  "initial_recipe": {
+    "template": "Erstelle ein praktisch umsetzbares deutschsprachiges Rezept auf Grundlage folgender erkannter Kühlschrankinhalte: {fridge_contents}. Die erkannten Lebensmittel sollen die Grundlage des Gerichts bilden; es müssen jedoch nicht alle erkannten Zutaten verwendet werden. Zusätzliche Zutaten dürfen verwendet werden. Gib zuerst eine Zutatenliste und anschließend nummerierte Zubereitungsschritte aus."
+  },
+  "followup_with_images": {
+    "template": "{question}\n\nZusätzlich wurden auf neu hochgeladenen Bildern folgende Zutaten erkannt: {additional_contents}."
+  }
+}

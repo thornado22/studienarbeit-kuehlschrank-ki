@@ -1,0 +1,81 @@
+.imageUploader {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.thumb-grid {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.45rem;
+  box-sizing: border-box;
+  overflow-x: auto;
+  overflow-y: hidden;
+  background: linear-gradient(to top, rgba(10, 18, 30, 0.5), rgba(10, 18, 30, 0));
+
+}
+
+.upload-thumb {
+  width: auto;
+  height: 100%;
+  aspect-ratio: 1;
+  flex: 0 0 auto;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  opacity: 0;
+  transition: opacity 240ms ease;
+}
+
+.upload-thumb.loaded {
+  opacity: 1;
+}
+
+.upload-hint {
+  font-size: 0.8rem;
+  margin-top: 0.3rem;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.error-text {
+  margin: 0;
+  font-size: 0.9rem;
+  color: white;
+  text-align: center;
+}
+
+.collage-actions {
+  display: flex;
+  justify-content: center;
+}
+
+.collage-preview {
+  width: min(420px, 90vw);
+}
+
+.collage-preview h3 {
+  margin: 0.2rem 0 0.4rem;
+}
+
+.collage-img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.28);
+}
+
+
+

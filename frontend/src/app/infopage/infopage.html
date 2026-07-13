@@ -1,0 +1,86 @@
+<section class="info-page page-layout">
+
+  <section class="box">
+    <h1>Informationen</h1>
+    <p>
+      Auf dieser Seite beschreiben wir den technischen Ablauf unserer Kühlschrank-Anwendung,
+      die Herkunft der Trainingsdaten und den Umgang mit hochgeladenen Fotos.
+    </p>
+  </section>
+
+  <section class="box">
+    <h3>Wie funktioniert die Anwendung?</h3>
+    <p>
+      Du kannst ein Foto von deinem Kühlschrank hochladen. Unsere Anwendung erkennt darauf
+      automatisch verschiedene Lebensmittel.
+    </p>
+    <p>
+      Das vorbereitete Bild wird dann von einem Convolutional Neural Network (CNN) analysiert.
+      Das Modell sagt für verschiedene Lebensmittelklassen Wahrscheinlichkeiten voraus.
+    </p>
+    <p>
+      Aus den erkannten Zutaten generiert das System anschließend passende Rezeptideen.
+      So kannst du sehen, welche Gerichte zu deinen vorhandenen Lebensmitteln passen.
+    </p>
+  </section>
+
+  <section class="box">
+    <h3>Wie zuverlässig ist die Erkennung?</h3>
+    <p>
+      Das Modell wurde mit einer noch relativ kleinen Menge an Trainingsbildern trainiert.
+      Das führt dazu, dass die Klassifikation nicht für alle Lebensmittel gleich stabil ist.
+    </p>
+    <p>
+      Einige Lebensmittel werden bereits recht zuverlässig erkannt, andere dagegen nur ungenau.
+      Die Erkennung erlaubt deshalb nur Ergebnisse, die einen Mindestwert an Sicherheit erreichen.
+    </p>
+    <p>
+      Wir arbeiten daran, die Genauigkeit zu verbessern, indem das Modell künftig mit deutlich
+      mehr und qualitativ hochwertigeren Daten trainiert wird.
+    </p>
+  </section>
+
+  <section class="box">
+    <h3>Woher stammen die Bilder?</h3>
+    <p>
+      Der Datensatz besteht aus Kühlschrankfotos, die von Freiwilligen bereitgestellt wurden.
+      Jede Aufnahme wurde geprüft und mit passenden Labels versehen.
+    </p>
+    <ul>
+      <li>Freiwillige haben Fotos ihrer Kühlschränke zur Verfügung gestellt.</li>
+      <li>Die Bilder wurden kontrolliert, bereinigt und annotiert.</li>
+    </ul>
+    <p>
+      Auf diese Weise lernt das Modell, Lebensmittel in realen Kühlschrank-Situationen zu erkennen.
+    </p>
+  </section>
+
+  <section class="box">
+    <h3>Was passiert mit deinem Foto?</h3>
+    <p>
+      Dein Foto wird im Backend nur im Arbeitsspeicher verarbeitet.
+      Es wird nicht dauerhaft als Datei abgespeichert.
+    </p>
+    <ul>
+      <li>Das Bild wird nur zur Klassifikation geladen.</li>
+      <li>Es wird nicht langfristig gespeichert oder weitergegeben.</li>
+      <li>Nach der Auswertung werden nur die erkannten Zutaten weiterverwendet.</li>
+    </ul>
+    <p>
+      Das bedeutet: Deine Daten bleiben privat.
+    </p>
+  </section>
+
+  <section class="box">
+    <h3>Wie entstehen die Rezeptvorschläge?</h3>
+    <p>
+      Die erkannten Zutaten werden in einen Prompt für den Rezeptdienst übertragen.
+      Dieser Dienst erstellt auf Basis der Zutaten eine Rezeptempfehlung.
+    </p>
+    <p>
+      Die Ausgabe ist als Inspiration gedacht. Du kannst die vorgeschlagenen Gerichte
+      selbstverständlich nach deinem Geschmack anpassen.
+    </p>
+  </section>
+
+</section>

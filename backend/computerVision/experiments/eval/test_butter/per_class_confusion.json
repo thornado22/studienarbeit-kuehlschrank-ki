@@ -1,0 +1,19 @@
+{
+  "threshold": 0.5,
+  "num_images": 65,
+  "classes": [
+    "butter_magarine"
+  ],
+  "per_class": {
+    "butter_magarine": {
+      "precision": 0.4889,
+      "recall": 0.8148,
+      "f1": 0.6111,
+      "support": 27,
+      "tp": 22,
+      "fp": 23,
+      "fn": 5,
+      "tn": 15
+    }
+  }
+}

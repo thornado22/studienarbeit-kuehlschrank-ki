@@ -1,0 +1,9 @@
+<section class="chat-shell">
+    <div class="chat-bubbles">
+        <app-chat-message-list [messages]="messages"></app-chat-message-list>
+    </div>
+
+    <div class="chat-composer">
+        <app-chat-input (messageSent)="onMessageReceived($event)"></app-chat-input>
+    </div>
+</section>

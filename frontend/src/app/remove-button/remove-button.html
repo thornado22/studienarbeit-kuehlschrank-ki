@@ -1,0 +1,9 @@
+<button
+class="action-button action-button--icon"
+[class.action-button--floating]="floating"
+[class.action-button--inline]="!floating"
+type="button"
+(click)="onRemoveClick()">
+    <img src="assets/trash-2.svg" alt="" class="action-icon" />
+    <span class="action-desktop">Bild löschen</span>
+</button>

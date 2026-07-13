@@ -1,0 +1,8 @@
+{
+  "initial_recipe": {
+    "template": "Erstelle ein praktisch umsetzbares deutschsprachiges Rezept auf Grundlage folgender erkannter Kühlschrankinhalte: {fridge_contents}. Die erkannten Lebensmittel sollen die Grundlage des Gerichts bilden; es müssen jedoch nicht alle erkannten Zutaten verwendet werden. Es müssen nicht alle erkannten Zutaten verwendet werden. Ergänzt werden dürfen ausschließlich typische Vorratszutaten, beispielsweise Salz, Pfeffer, Gewürze, Öl, Essig, Mehl, Zucker, Reis, Nudeln oder Konserven. Nicht erkannte frische Hauptzutaten dürfen nicht als vorhanden dargestellt werden. Verwende exakt folgende Abschnitte: GERICHT, PORTIONEN, ZUTATEN, ZUBEREITUNG, ZUBEREITUNGSDAUER und ZUSÄTZLICH BENÖTIGTE VORRATSZUTATEN. Gib die Zubereitung als nummerierte Schritte aus. Falls eine erkannte Zutat unklar, widersprüchlich oder nur als unbekannt bezeichnet ist, konkretisiere sie nicht eigenständig. Kennzeichne die Unsicherheit knapp und verwende die betreffende Zutat nicht als zentrale Grundlage des Gerichts. Stelle nur dann eine Rückfrage, wenn ohne die Klärung kein sinnvolles Rezept erstellt werden kann."
+  },
+  "followup_with_images": {
+    "template": "{question}\n\nZusätzlich wurden auf neu hochgeladenen Bildern folgende Zutaten erkannt: {additional_contents}."
+  }
+}

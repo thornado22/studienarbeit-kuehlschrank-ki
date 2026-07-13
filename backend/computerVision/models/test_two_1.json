@@ -1,0 +1,56 @@
+{
+    "notes": "Slight augmentation",
+    "settings": {
+        "epochs": 100,
+        "test_size": 0.3,
+        "learning_rate": 0.0003,
+        "patience": 15,
+        "min_data_samples_per_label": 40,
+        "batch_size": 128,
+        "model_path": "computerVision/models/test_two_1.pth",
+        "model": "efficientnet_b0"
+    },
+    "results": {
+        "val_f1": 0.7477899789810181,
+        "val_class_f1": [
+            0.8992248177528381,
+            0.7777777910232544,
+            0.6399999260902405,
+            0.6741573214530945
+        ],
+        "train_loss": 0.32262930770715076,
+        "val_loss": 0.626947283744812,
+        "stop_epcoh": 30
+    },
+    "meta": {
+        "dataset_size": 396,
+        "classes": [
+            "faecher",
+            "tuer",
+            "gesamter_kuehlschrank",
+            "schublade"
+        ]
+    },
+    "feature_engineering": {
+        "single": {
+            "RandomBrightnessContrast": {
+                "p": 0.3
+            },
+            "HueSaturationValue": {
+                "p": 0.2
+            },
+            "GaussianBlur": {
+                "p": 0.1
+            },
+            "HorizontalFlip": {
+                "p": 0.5
+            },
+            "ShiftScaleRotate": {
+                "p": 0.3,
+                "shift_limit": 0.05,
+                "scale_limit": 0.1,
+                "rotate_limit": 10
+            }
+        }
+    }
+}

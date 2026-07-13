@@ -1,0 +1,223 @@
+{
+    "notes": "Slight augmentation",
+    "settings": {
+        "epochs": 100,
+        "test_size": 0.3,
+        "learning_rate": 0.0003,
+        "patience": 15,
+        "min_data_samples_per_label": 40,
+        "batch_size": 128,
+        "model_path": "computerVision/models/test_5.pth",
+        "model": "resnet18"
+    },
+    "results": {
+        "val_f1": 0.5096331238746643,
+        "val_class_f1": [
+            0.5633803009986877,
+            0.6551724076271057,
+            0.5306122303009033,
+            0.447761207818985,
+            0.4000000059604645,
+            0.5600000023841858,
+            0.6823529601097107,
+            0.23076921701431274,
+            0.36000001430511475,
+            0.7123287916183472,
+            0.36734694242477417,
+            0.5925925374031067,
+            0.6071428656578064,
+            0.6229507923126221,
+            0.4878048896789551,
+            0.6138613820075989,
+            0.5970149040222168,
+            0.42307692766189575,
+            0.3636363744735718,
+            0.6969696879386902,
+            0.375,
+            0.5769230723381042,
+            0.4651162922382355,
+            0.4285714328289032,
+            0.5813953280448914,
+            0.4528301954269409,
+            0.5333333015441895,
+            0.615384578704834,
+            0.4827585816383362,
+            0.5161290168762207,
+            0.25641027092933655
+        ],
+        "train_loss": 0.4682373305161794,
+        "val_loss": 0.8805265128612518,
+        "stop_epcoh": 24
+    },
+    "meta": {
+        "dataset_size": 388,
+        "classes": [
+            "alkohol",
+            "butter_magarine",
+            "creme_fraiche",
+            "ei",
+            "essiggurke",
+            "feta",
+            "frischkaese",
+            "fruehlingszwiebel",
+            "gurke",
+            "joghurt",
+            "kaese",
+            "karotte",
+            "ketchup",
+            "marmelade",
+            "mayo",
+            "milch",
+            "paprika",
+            "parmesan",
+            "pesto",
+            "quark",
+            "reibekaese",
+            "saft",
+            "sahne",
+            "salat",
+            "scheibenkaese",
+            "senf",
+            "sojasose",
+            "tofu",
+            "tomate",
+            "tomatenmark",
+            "wurst"
+        ]
+    },
+    "feature_engineering": {
+        "single": {
+            "Occlusion": {
+                "p": 0.6,
+                "num_holes_range": [
+                    4,
+                    7
+                ],
+                "hole_height_range": [
+                    0.1,
+                    0.1
+                ],
+                "hole_width_range": [
+                    0.1,
+                    0.1
+                ]
+            },
+            "HorizontalFlip": {
+                "p": 1
+            },
+            "VerticalFlip": {
+                "p": 1
+            }
+        },
+        "group": {
+            "1": {
+                "p": 1,
+                "transforms": {
+                    "GaussNoise": {
+                        "p": 0.5,
+                        "std_range": [
+                            0.2,
+                            0.3
+                        ],
+                        "mean_range": [
+                            -0.2,
+                            -0.1
+                        ]
+                    },
+                    "SaltAndPepper": {
+                        "p": 0.3,
+                        "amount": [
+                            0.01,
+                            0.04
+                        ]
+                    },
+                    "ISONoise": {
+                        "p": 0.5,
+                        "color_shift": [
+                            0.2,
+                            0.3
+                        ],
+                        "intensity": [
+                            0.4,
+                            0.5
+                        ]
+                    },
+                    "RandomBrightnessContrast": {
+                        "p": 0.8,
+                        "brightness_limit": [
+                            -0.2,
+                            0.2
+                        ],
+                        "contrast_limit": [
+                            -0.1,
+                            0.4
+                        ]
+                    },
+                    "HueSaturationValue": {
+                        "p": 0.1,
+                        "hue_shift_limit": [
+                            -10,
+                            10
+                        ],
+                        "sat_shift_limit": [
+                            -0.1,
+                            0.1
+                        ],
+                        "val_shift_limit": [
+                            -1,
+                            1
+                        ]
+                    }
+                }
+            },
+            "2": {
+                "p": 1,
+                "transforms": {
+                    "GaussianBlur": {
+                        "p": 0.5,
+                        "sigma_limit": [
+                            3,
+                            4
+                        ]
+                    },
+                    "MotionBlur": {
+                        "p": 0.7,
+                        "angle_range": [
+                            0,
+                            135
+                        ],
+                        "blur_limit": [
+                            15,
+                            19
+                        ],
+                        "direction_range": [
+                            0,
+                            1
+                        ]
+                    },
+                    "ShiftScaleRotate": {
+                        "p": 0.3,
+                        "shift_limit": 0.15,
+                        "scale_limit": 0.1,
+                        "rotate_limit": 10
+                    },
+                    "Perspective": {
+                        "p": 0.1,
+                        "scale": [
+                            0.05,
+                            0.1
+                        ],
+                        "keep_size": "True"
+                    },
+                    "Affine": {
+                        "p": 0.4,
+                        "shear": [
+                            -2.5,
+                            2.5
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

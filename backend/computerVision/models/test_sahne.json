@@ -1,0 +1,48 @@
+{
+    "notes": "",
+    "settings": {
+        "epochs": 100,
+        "test_size": 0.3,
+        "learning_rate": 0.0003,
+        "patience": 7,
+        "min_data_samples_per_label": 40,
+        "batch_size": 128,
+        "model_path": "computerVision/models/test_sahne.pth",
+        "model": "efficientnet_b0"
+    },
+    "results": {
+        "val_f1": 0.4074074074074074,
+        "val_class_f1": [],
+        "train_loss": 0.9090061783790588,
+        "val_loss": 1.089206039905548,
+        "stop_epcoh": 2
+    },
+    "meta": {
+        "dataset_size": 396,
+        "classes": [
+            "sahne"
+        ]
+    },
+    "feature_engineering": {
+        "single": {
+            "RandomBrightnessContrast": {
+                "p": 0.3
+            },
+            "HueSaturationValue": {
+                "p": 0.2
+            },
+            "GaussianBlur": {
+                "p": 0.1
+            },
+            "HorizontalFlip": {
+                "p": 0.5
+            },
+            "ShiftScaleRotate": {
+                "p": 0.3,
+                "shift_limit": 0.05,
+                "scale_limit": 0.1,
+                "rotate_limit": 10
+            }
+        }
+    }
+}

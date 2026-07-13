@@ -1,0 +1,10 @@
+<button
+class="action-button action-button--icon"
+[class.action-button--floating]="floating"
+[class.action-button--inline]="!floating"
+[attr.aria-label]="label"
+type="button"
+(click)="onSendClick()">
+    <img src="assets/send-1.svg" alt="" class="action-icon" />
+    <span class="action-desktop">{{ label }}</span>
+</button>

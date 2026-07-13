@@ -1,0 +1,125 @@
+# Latex
+*.aux
+main.bcf
+main.blg
+main.fdb_latexmk
+main.fls
+main.lof
+main.lot
+main.log
+main.out
+main.run.xml
+main.toc
+
+*.bbl
+*.synctex.gz
+*.lol
+*.mtc
+
+/credentials.json
+.venv
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Rope
+.ropeproject
+
+# Django stuff:
+*.log
+*.pot
+
+# Sphinx documentation
+docs/_build/
+
+# ============ FRONTEND (Angular/Node) ============
+# Dependencies
+node_modules/
+package-lock.json
+frontend/node_modules/
+frontend/package-lock.json
+
+# Build outputs
+frontend/dist/
+frontend/.angular/
+frontend/build/
+
+# TypeDoc generated documentation
+frontend/docs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS
+*.log
+*.log.*
+
+# ============ BACKEND (Python) ============
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Local development
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+# Downloaded images
+computerVision/images/2025-*
+computerVision/images/2026-*
+computerVision/images/*.zip
+
+# Temporary files
+*.tmp
+temp/
+

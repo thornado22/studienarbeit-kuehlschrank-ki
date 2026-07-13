@@ -1,0 +1,51 @@
+
+  <div class="chat-container">
+    <textarea
+      class="chat-input"
+      [(ngModel)]="draftMessage"
+      (ngModelChange)="onDraftChange($event)"
+      (keydown.enter)="onEnter($event)"
+      rows="1"
+      placeholder="Nachricht eingeben...">
+    </textarea>
+    
+    <div class="button-group">
+      <button
+      class="action-button action-button--icon"
+      #popupToggle
+      type="button"
+      (click)="togglePopup($event)">
+          <img src="assets/paperclip-angular.svg"alt="" class="action-icon" />
+          <span class="action-desktop">Optionen</span>
+      </button>
+
+      <app-send-button
+        [floating]="false"
+        (sendClicked)="sendMessage()"
+        title="Senden">
+      </app-send-button>
+    </div>
+
+    <div class="popup-menu" *ngIf="showPopup" #popupMenu>
+      <section class="popup-content">
+        <image-uploader
+          icon="assets/image.svg"
+          *ngIf="!switchOnVideo"
+          #imageUploaderComponent
+          (imagesUploaded)="onImagesUploaded($event, 'upload')"
+        ></image-uploader>
+
+        <webcam-snapshot
+          icon="assets/camera.svg"
+          #webcamSnapshotComponent
+          (imagesSnapped)="onImagesUploaded($event, 'webcam')"
+        ></webcam-snapshot>
+      </section>
+
+      <footer class="popup-footer">
+        <app-remove-button [floating]="false" (removeClicked)="onPopupRemoveClick()"></app-remove-button>
+      </footer>
+    </div>
+  </div>
+
+

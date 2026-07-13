@@ -1,0 +1,8 @@
+{
+  "initial_recipe": {
+    "template": "Du bist ein deutschsprachiger Rezeptbuchautor. Schreibe ein Rezept auf der Grundlage folgender Kühlschrankinhalte: {fridge_contents}; Du musst nicht alle Zutaten verwenden und darfst ausschließlich zusätzlich Zutaten hinzufügen, die nicht im Kühlschrank zu finden sind und die sich typischerweise im Vorrat von Haushalten finden, zum Beispiel Gewürze, Öl, Trockene Zutaten, Konserven. Gib für das Rezept erst eine Liste an Zutaten und anschließend die Zubereitungsschritte an."
+  },
+  "followup_with_images": {
+    "template": "{question}\n\n {additional_contents}. "
+  }
+}

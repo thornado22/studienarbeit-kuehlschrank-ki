@@ -1,0 +1,42 @@
+<button
+class="uploader"
+type="button"
+ondragover="return false;"
+[class.loaded]="imageLoaded"
+[style.border-color]="dragging ? activeColor : baseColor"
+(dragenter)="handleDragEnter()"
+(dragleave)="handleDragLeave()"
+(drop)="handleDrop($event)"
+(click)="openFileDialog()"
+>
+
+  <div class="upload-instructions" >
+    <img [src]="icon" alt="" class="upload-icon">
+    <h3 *ngIf="!imageSrcList.length">{{ text }}</h3>
+    <p class="upload-hint">{{hint}}</p>
+  </div>
+
+
+  <div class="thumb-grid" *ngIf="imageSrcList.length">
+    <img
+      *ngFor="let src of imageSrcList"
+      [src]="src"
+      (load)="handleImageLoad()"
+      [class.loaded]="imageLoaded"
+      class="upload-thumb"
+      alt="Hochgeladenes Bild">
+  </div>
+
+  <input
+          #fileInput
+          type="file"
+          name="file"
+          accept="image/*"
+          multiple
+          (change)="handleInputChange($event)"
+  >
+
+
+
+</button>
+

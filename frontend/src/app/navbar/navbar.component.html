@@ -1,0 +1,22 @@
+<nav class="navbar">
+
+  <button
+    class="nav-button btn btn-primary btn-action-size"
+    type="button"
+    aria-label="KühlschrankKI"
+    (click)="onHomeClick()">
+    
+    <img src="assets/Logo.png" alt="Logo" class="nav-logo" />
+
+    <span>KüKI</span>
+  </button>
+
+  <button
+    *ngIf="activeView !== 'info'"
+    class="nav-button btn btn-primary btn-action-size"
+    type="button"
+    (click)="onInfoClicked()">
+    i
+  </button>
+
+</nav>

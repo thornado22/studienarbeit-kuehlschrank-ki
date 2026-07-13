@@ -1,0 +1,63 @@
+<app-navbar
+  [activeView]="activeView"
+  (homeClicked)="setActiveView('home')"
+  (infoClicked)="setActiveView('info')">
+</app-navbar>
+
+<div class="app-notification" *ngIf="notificationMessage">
+  {{ notificationMessage }}
+</div>
+<!-- Homepage------------------------------------------ -->
+<main class="page">
+  <ng-container *ngIf="activeView === 'home'">
+    <section class="hypeText">
+      <h2>Finde heraus was du kochen kannst!</h2>
+    </section>
+
+    <section class="actions">
+      <image-uploader 
+        text="Wähle Bilder aus!"
+        hint="Mehrfachauswahl mit Strg oder Umschalt."
+        icon="assets/image.svg"
+        (imagesUploaded)="onImagesUploaded($event, 'upload')"
+        (imageRemoved)="onImageRemoved('upload')"
+        *ngIf="!switchOnVideo"
+        #imageUploaderComponent
+      ></image-uploader>
+
+      <webcam-snapshot
+        text="Mach ein Foto!"
+        icon="assets/camera.svg"
+        (imagesSnapped)="onImagesUploaded($event, 'webcam')"
+        (imageRemoved)="onImageRemoved('webcam')"
+        #webcamSnapshotComponent
+      ></webcam-snapshot>
+    </section>
+
+    <section class="floating-actions">
+      <app-remove-button [floating]="false" (removeClicked)="onRemovalButtonClick()"></app-remove-button>
+      <app-send-button [floating]="false" (sendClicked)="onSendClicked()"></app-send-button>
+    </section>
+  </ng-container>
+<!-- Chat------------------------------------------ -->
+  <ng-container *ngIf="activeView === 'chatbot'">
+    <app-chat-page></app-chat-page>
+  </ng-container>
+
+<!-- AboutUs------------------------------------------ -->
+  <ng-container *ngIf="activeView === 'about'">
+    <app-aboutus></app-aboutus>
+  </ng-container>
+
+<!-- Info------------------------------------------ -->
+  <ng-container *ngIf="activeView === 'info'">
+    <app-infopage></app-infopage>
+  </ng-container>
+</main>
+
+
+<app-footer
+  *ngIf="activeView === 'info' || activeView === 'about' || activeView === 'home'"
+  [activeView]="activeView"
+  (aboutClicked)="setActiveView('about')">
+</app-footer>
